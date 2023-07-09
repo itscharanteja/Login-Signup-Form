@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(-45deg, #9be8d8, #78c1f3, #e2f6ca, #f8fdcf);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  /* border: 10px solid; */
+  padding: 20px;
+}
+h2 {
+  border-bottom: 10px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+body {
+  background-color: beige;
+  font-family: "Mukta", sans-serif;
+}
+
+.hidden {
+  display: none;
+}

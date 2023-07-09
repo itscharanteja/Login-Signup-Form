@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <h1>Welcome to My Page</h1>
+    <h2>If you have account, Login👇</h2>
+    <br />
+    <a href="login.html">Login Now</a><br />
+    <h2>If you new, Register👇</h2>
+    <br />
+    <a href="register.html">Register Now</a><br /> -->
+
+    <div class="container">
+      <div id="registration">
+        <h2>Registration</h2>
+        <form id="main">
+          <label for="name" id="fname">First Name</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter Your Name"
+            required
+          />
+          <br />
+          <label for="name" id="lname">Last Name</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Enter Your Name"
+            required
+          />
+          <br />
+          <label for="email">Email</label> <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+            required
+          /><br />
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            class="pass"
+            name="pass"
+            placeholder="Password"
+            required
+          /><br />
+          <label for="password">Re-Type Password</label><br />
+          <input
+            type="password"
+            class="re-pass"
+            name="re-pass"
+            placeholder="Password"
+            required
+          /><br />
+          <button id="sub">Submit</button>
+          <p id="old">Already have an account? <a href="#">Login Now</a></p>
+        </form>
+      </div>
+      <div id="login">
+        <h2>Login</h2>
+
+        <form id="formlogin">
+          <label for="email">Email</label> <br />
+          <input
+            type="text"
+            name="email1"
+            id="email1"
+            placeholder="Enter email"
+            required
+          /><br />
+
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          /><br />
+
+          <button id="submit">Submit</button>
+          <p id="new">
+            New to here?
+            <a href="#" rel="noopener noreferrer">Register Now!</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
